@@ -1,6 +1,6 @@
-.App {
+/*.App {
   text-align: center;
-}
+}*/
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 13px 54px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.first-pic {
+  border-radius: 50%;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #C70039;
+}
+
+.img-container {
+  display: block;
+}
+
+.stun-img{
+  width: 530px;
+  height: 400px;
+  display: block;
+  text-align: center;
+  margin-left: 420px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+body {
+  background-color: #900C3F;
+  color: white;
 }
